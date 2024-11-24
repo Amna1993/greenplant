@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div className="relative w-full md:w-3/5 h-1/2 md:h-4/5 z-20">
         <img
           src={heroImage1}
-          alt="Empower Communities"
+          alt="Empower Communities..."
           className="w-full h-full object-cover rounded-br-[10%] transform transition-transform duration-1000 hover:scale-105 animate-slideInLeft"
         />
         <div className="absolute"></div>
