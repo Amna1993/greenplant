@@ -8,7 +8,12 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo */}
         <div className="text-2xl font-extrabold tracking-wide">
-          <a href="#">🌱 GreenFuture</a>
+          <button
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            className="focus:outline-none"
+          >
+            🌱 GreenFuture
+          </button>
         </div>
 
         {/* Desktop Links */}
@@ -59,6 +64,7 @@ const Navbar = () => {
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden text-white focus:outline-none"
+          aria-label="Toggle menu"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
