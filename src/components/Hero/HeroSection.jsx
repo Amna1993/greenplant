@@ -4,9 +4,9 @@ import heroImage2 from '../../assets/hero2.jpg';
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-screen flex overflow-hidden">
+    <section className="relative w-full h-screen flex flex-col md:flex-row overflow-hidden">
       {/* First Image (Left) */}
-      <div className="absolute left-0 top-0 w-3/5 h-4/5 z-20">
+      <div className="relative w-full md:w-3/5 h-1/2 md:h-4/5 z-20">
         <img
           src={heroImage1}
           alt="Empower Communities"
@@ -20,7 +20,7 @@ const HeroSection = () => {
       </div>
 
       {/* Second Image (Right) */}
-      <div className="absolute right-0 bottom-0 w-3/5 h-full z-10 rounded-right">
+      <div className="relative w-full md:w-3/5 h-1/2 md:h-full z-10">
         <img
           src={heroImage2}
           alt="Plant a Tree Today"
