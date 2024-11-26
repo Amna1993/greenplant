@@ -67,7 +67,7 @@ const ProblemCauseSolution = () => {
               <div className="absolute top-0 left-0 w-full h-full">
                 <img
                   src="https://trees.org/wp-content/uploads/2022/03/Dirt-Blowing-1-2-1024x683.jpg"
-                  alt="Dirt Blowing"
+                  alt=""
                   className="w-full h-full object-center object-cover"
                 />
               </div>
@@ -106,7 +106,7 @@ const ProblemCauseSolution = () => {
               <div className="absolute top-0 left-0 w-full h-full">
                 <img
                   src="https://trees.org/wp-content/uploads/2022/04/DSC05011-1024x684.jpg"
-                  alt="Unsustainable land use"
+                  alt=""
                   className="w-full h-full object-center object-cover"
                 />
               </div>
@@ -146,7 +146,7 @@ const ProblemCauseSolution = () => {
               <div className="absolute top-0 left-0 w-full h-full">
                 <img
                   src="https://trees.org/wp-content/uploads/2022/04/man-standing-in-forest-garden-smiling-1024x683.jpg"
-                  alt="Forest Garden Solution"
+                  alt=""
                   className="w-full h-full object-center object-cover"
                 />
               </div>

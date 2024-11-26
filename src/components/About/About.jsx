@@ -9,7 +9,7 @@ const AboutSection = () => {
           <div className="rounded-bl-[80px] md:rounded-bl-none md:rounded-br-[100px] overflow-hidden h-0 md:h-full xl:h-0 relative pb-[57.67%]">
             <img
               src="https://trees.org/wp-content/uploads/2022/03/EOS_1032-1024x683.jpg"
-              alt="About us image"
+              alt=""
               className="absolute top-0 left-0 h-full w-full object-cover object-center"
               loading="lazy"
               decoding="async"
