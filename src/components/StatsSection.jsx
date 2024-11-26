@@ -23,7 +23,7 @@ const StatsSection = () => {
           />
           <StatCard
             icon="🌍"
-            number="41,000"
+            number="41,0000"
             label="Acres Restored"
           />
           <StatCard
